@@ -79,9 +79,13 @@ ReqForge 是一個需求規格工作流專案，用來協助 PM、開發者與 A
 ## AI 使用原則
 
 - AI 不得自行腦補需求。
+- AI 不得因為業界常見做法或一般系統常見流程，就把功能寫成已確認需求。
+- 常見做法只能標示為 Suggested Practice、Assumption 或 Open Question；除非來源或使用者明確確認，否則不得進入正式需求。
 - 不確定的需求必須寫入 `specs/01-discovery/open-questions.md`。
 - 假設必須寫入 `specs/01-discovery/assumptions.md`。
 - 已確認需求才可以寫入正式需求文件。
+- AI 必須區分 Confirmed Requirement、Suggested Practice、Assumption 與 Open Question。
+- 若模型傾向補齊常見流程，仍必須優先保守處理；不確定時應提出問題，而不是補需求。
 - 設計文件只能根據已確認需求產生。
 - 所有需求都要盡量可追溯來源。
 - 文件全部使用 Markdown。
