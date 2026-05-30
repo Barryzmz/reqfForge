@@ -2,6 +2,16 @@
 
 本文件定義 ReqForge 專案中 AI、PM、開發者與其他協作者共同遵守的需求工作原則。
 
+## Workflow Step vs Artifact Layer
+
+`prompts/` 中的編號代表 workflow step，也就是 AI 執行工作的建議順序。
+
+`specs/` 中的編號代表 artifact layer，也就是文件成熟度、責任邊界與用途。
+
+prompt 編號與 specs 資料夾編號不要求一對一對應。單一 prompt 可以讀取或更新多個 artifact layers，但必須明確列出 input files、output files 與 rules。
+
+若某個 prompt 會回填較早階段的文件，例如釐清問題後更新 discovery、requirements 或 decision log，該 prompt 必須明確說明這是 backfill clarification，而不是產生新的未確認需求。
+
 ## 1. 不得自行腦補需求
 
 AI 只能整理、歸納與轉換已提供的資訊。若資訊不足，不得把推測內容寫成已確認需求。
