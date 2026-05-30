@@ -27,7 +27,10 @@ ReqForge 是一個需求規格工作流專案，用來協助 PM、開發者與 A
    - Prompt: `prompts/02-extract-requirements.prompt.md`
    - Input: `CONSTITUTION.md`, `specs/01-discovery/`
    - Output: `specs/02-requirements/`
-   - 從已確認事實萃取正式需求。
+   - 從已確認事實萃取正式需求，不只是文字整理。
+   - 輸出必須可驗收、可追蹤，並能轉換成後續分析、規格書與測試案例。
+   - Functional requirements 必須包含 actor、trigger、preconditions 與 acceptance criteria，並優先使用 Given / When / Then 格式。
+   - Business rules、workflow requirements 與 permission requirements 必須包含可驗證描述。
    - 不確定內容必須回寫 `open-questions.md`。
    - 推測性內容必須回寫 `assumptions.md`。
 
