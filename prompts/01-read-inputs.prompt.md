@@ -22,6 +22,7 @@
 3. 不要自行腦補缺漏內容。
 4. 若來源有矛盾或資訊不足，更新 `specs/01-discovery/open-questions.md`。
 5. 若必須使用工作假設，更新 `specs/01-discovery/assumptions.md`。
+6. 更新 `specs/05-versions/changelog.md`，記錄本次執行的文件變更摘要。
 
 ## Rules
 
