@@ -38,6 +38,7 @@
 4. 從資料需求、角色、商業規則與流程需求整理 domain model。
 5. 從流程需求與狀態相關規則整理 state transitions。
 6. 從需求限制、規則、例外情境與 open questions 影響範圍整理 edge cases。
+7. 更新 `specs/05-versions/changelog.md`，記錄本次執行的文件變更摘要。
 
 ## Rules
 

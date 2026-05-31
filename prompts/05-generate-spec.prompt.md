@@ -32,10 +32,12 @@
 3. 依照 `templates/requirement-spec-template.md` 建立正式需求規格書。
 4. 檢查需求編號、來源、狀態與追溯關係。
 5. 加入可驗收或判斷方式。
+6. 更新 `specs/05-versions/changelog.md`，記錄本次執行的文件變更摘要。
 
 ## Rules
 
 - 只使用正式需求。
+- 若 `specs/03-analysis/edge-cases.md` 中存在 Open 狀態的 edge case，必須先透過 Prompt 03 backfill 步驟或補充決策解決後，才可繼續產出規格書。
 - 不得引用 unresolved open questions。
 - 不得引用 pending assumptions。
 - 若缺少設計或驗收所需資訊，請回寫 open question。

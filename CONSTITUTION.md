@@ -57,6 +57,8 @@ AI 必須明確區分下列狀態：
 
 假設不得直接升級為正式需求。假設只有在被確認後，才可以轉入 `specs/02-requirements/`。
 
+Pending 狀態的 Assumption 不得作為設計文件的依賴。若設計需要依賴某假設，必須先升格為 Confirmed Requirement 或回寫 Open Question。
+
 ## 6. 正式需求只接受已確認內容
 
 `specs/02-requirements/` 中的內容必須是已確認需求。每個需求都應包含：

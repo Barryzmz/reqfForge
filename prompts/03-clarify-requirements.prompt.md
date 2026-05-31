@@ -41,6 +41,7 @@
 3. 只有在使用者回答已明確確認需求時，才更新 `specs/02-requirements/`。
 4. 當使用者回答被寫回需求文件時，必須同步更新 `specs/05-versions/decision-log.md`。
 5. 將已確認的需求決策、原因、來源與關聯需求記錄到 `specs/05-versions/decision-log.md`。
+6. 更新 `specs/05-versions/changelog.md`，記錄本次執行的文件變更摘要。
 
 ## Rules
 
