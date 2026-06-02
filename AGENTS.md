@@ -33,13 +33,13 @@ ReqForge 使用 skills 架構。每個步驟對應 `.github/skills/<skill-name>/
 
 | Skill | SKILL.md | 觸發關鍵字 |
 |-------|----------|-----------|
-| `rf-discover` | `.github/skills/rf-discover/SKILL.md` | discover / step 1 / 初步探索 |
-| `rf-extract` | `.github/skills/rf-extract/SKILL.md` | extract / step 2 / 提取需求 |
-| `rf-clarify` | `.github/skills/rf-clarify/SKILL.md` | clarify / step 3 / 釐清需求 |
-| `rf-analyze` | `.github/skills/rf-analyze/SKILL.md` | analyze / step 4 / 分析需求 |
-| `rf-spec` | `.github/skills/rf-spec/SKILL.md` | spec / step 5 / 生成規格 |
-| `rf-design` | `.github/skills/rf-design/SKILL.md` | design / step 6 / 生成設計 |
-| `rf-log` | `.github/skills/rf-log/SKILL.md` | log / step 7 / 更新版本 |
-| `rf-status` | `.github/skills/rf-status/SKILL.md` | status / 進度 / 哪個步驟 |
-| `rf-next` | `.github/skills/rf-next/SKILL.md` | next / 下一步 / 接下來做什麼 |
-| `rf-help` | `.github/skills/rf-help/SKILL.md` | help / 指令列表 |
+| `rf.discover` | `.github/skills/rf.discover/SKILL.md` | discover / step 1 / 初步探索 |
+| `rf.extract` | `.github/skills/rf.extract/SKILL.md` | extract / step 2 / 提取需求 |
+| `rf.clarify` | `.github/skills/rf.clarify/SKILL.md` | clarify / step 3 / 釐清需求 |
+| `rf.analyze` | `.github/skills/rf.analyze/SKILL.md` | analyze / step 4 / 分析需求 |
+| `rf.spec` | `.github/skills/rf.spec/SKILL.md` | spec / step 5 / 生成規格 |
+| `rf.design` | `.github/skills/rf.design/SKILL.md` | design / step 6 / 生成設計 |
+| `rf.log` | `.github/skills/rf.log/SKILL.md` | log / step 7 / 更新版本 |
+| `rf.status` | `.github/skills/rf.status/SKILL.md` | status / 進度 / 哪個步驟 |
+| `rf.next` | `.github/skills/rf.next/SKILL.md` | next / 下一步 / 接下來做什麼 |
+| `rf.help` | `.github/skills/rf.help/SKILL.md` | help / 指令列表 |
