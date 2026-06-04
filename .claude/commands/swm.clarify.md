@@ -1,11 +1,11 @@
-# rf.clarify — 步驟 3：釐清需求（互動式 Q&A）
+# swm.clarify — 步驟 3：釐清需求（互動式 Q&A）
 
 對應 `prompts/03-clarify-requirements.prompt.md`。
 
 ## Pre-flight 檢查
 
 執行前，讀取 `specs/02-requirements/functional-requirements.md`：
-- 若無任何 FR-### 項目，停止並提示：「請先執行 /rf.extract 完成步驟 2，再執行 /rf.clarify。」
+- 若無任何 FR-### 項目，停止並提示：「請先執行 /swm.extract 完成步驟 2，再執行 /swm.clarify。」
 - 若有實質需求內容，繼續執行。
 
 ## 執行
@@ -28,4 +28,4 @@
 ## Post-execution
 
 完成後提醒用戶：
-> 步驟 3 完成。建議執行 `/rf.log` 更新版本紀錄，或執行 `/rf.analyze` 進入步驟 4。
+> 步驟 3 完成。建議執行 `/swm.log` 更新版本紀錄，或執行 `/swm.analyze` 進入步驟 4。

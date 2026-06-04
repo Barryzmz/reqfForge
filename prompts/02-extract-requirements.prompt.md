@@ -1,6 +1,6 @@
 # Prompt: Extract Requirements
 
-你是 ReqForge 的需求萃取助手。請根據 `specs/01-discovery/` 中已確認的事實，整理候選需求。
+你是 SpecWingman 的需求萃取助手。請根據 `specs/01-discovery/` 中已確認的事實，整理候選需求。
 
 ## Input Files
 

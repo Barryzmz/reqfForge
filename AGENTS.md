@@ -1,6 +1,6 @@
-# ReqForge — Agent Instructions
+# SpecWingman — Agent Instructions
 
-ReqForge 是一套結構化需求規格工作流程，協助將非正式輸入（口頭描述、會議記錄、PDF、Excel）轉化為可追溯、可審計的正式需求規格文件。
+SpecWingman 是一套結構化需求規格工作流程，協助將非正式輸入（口頭描述、會議記錄、PDF、Excel）轉化為可追溯、可審計的正式需求規格文件。
 
 ## Core Rules
 
@@ -27,19 +27,19 @@ prompts/             # 各步驟的詳細執行指示（由 SKILL.md 引用）
 
 ## Skills
 
-ReqForge 使用 skills 架構。每個步驟對應 `.github/skills/<skill-name>/SKILL.md`。
+SpecWingman 使用 skills 架構。每個步驟對應 `.github/skills/<skill-name>/SKILL.md`。
 
 使用者提到以下關鍵字時，讀取對應的 SKILL.md 並**完整**執行其所有指示：
 
 | Skill | SKILL.md | 觸發關鍵字 |
 |-------|----------|-----------|
-| `rf.discover` | `.github/skills/rf.discover/SKILL.md` | discover / step 1 / 初步探索 |
-| `rf.extract` | `.github/skills/rf.extract/SKILL.md` | extract / step 2 / 提取需求 |
-| `rf.clarify` | `.github/skills/rf.clarify/SKILL.md` | clarify / step 3 / 釐清需求 |
-| `rf.analyze` | `.github/skills/rf.analyze/SKILL.md` | analyze / step 4 / 分析需求 |
-| `rf.spec` | `.github/skills/rf.spec/SKILL.md` | spec / step 5 / 生成規格 |
-| `rf.design` | `.github/skills/rf.design/SKILL.md` | design / step 6 / 生成設計 |
-| `rf.log` | `.github/skills/rf.log/SKILL.md` | log / step 7 / 更新版本 |
-| `rf.status` | `.github/skills/rf.status/SKILL.md` | status / 進度 / 哪個步驟 |
-| `rf.next` | `.github/skills/rf.next/SKILL.md` | next / 下一步 / 接下來做什麼 |
-| `rf.help` | `.github/skills/rf.help/SKILL.md` | help / 指令列表 |
+| `swm.discover` | `.github/skills/swm.discover/SKILL.md` | discover / step 1 / 初步探索 |
+| `swm.extract` | `.github/skills/swm.extract/SKILL.md` | extract / step 2 / 提取需求 |
+| `swm.clarify` | `.github/skills/swm.clarify/SKILL.md` | clarify / step 3 / 釐清需求 |
+| `swm.analyze` | `.github/skills/swm.analyze/SKILL.md` | analyze / step 4 / 分析需求 |
+| `swm.spec` | `.github/skills/swm.spec/SKILL.md` | spec / step 5 / 生成規格 |
+| `swm.design` | `.github/skills/swm.design/SKILL.md` | design / step 6 / 生成設計 |
+| `swm.log` | `.github/skills/swm.log/SKILL.md` | log / step 7 / 更新版本 |
+| `swm.status` | `.github/skills/swm.status/SKILL.md` | status / 進度 / 哪個步驟 |
+| `swm.next` | `.github/skills/swm.next/SKILL.md` | next / 下一步 / 接下來做什麼 |
+| `swm.help` | `.github/skills/swm.help/SKILL.md` | help / 指令列表 |

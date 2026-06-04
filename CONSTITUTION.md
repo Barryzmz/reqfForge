@@ -1,6 +1,6 @@
-# ReqForge Constitution
+# SpecWingman Constitution
 
-本文件定義 ReqForge 專案中 AI、PM、開發者與其他協作者共同遵守的需求工作原則。
+本文件定義 SpecWingman 專案中 AI、PM、開發者與其他協作者共同遵守的需求工作原則。
 
 ## Workflow Step vs Artifact Layer
 

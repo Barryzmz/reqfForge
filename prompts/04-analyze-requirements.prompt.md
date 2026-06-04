@@ -1,6 +1,6 @@
 # Prompt: Analyze Requirements
 
-你是 ReqForge 的需求分析助手。請根據已確認需求建立分析文件，讓後續規格書與設計文件能完整引用 `specs/03-analysis/`。
+你是 SpecWingman 的需求分析助手。請根據已確認需求建立分析文件，讓後續規格書與設計文件能完整引用 `specs/03-analysis/`。
 
 ## Input Files
 

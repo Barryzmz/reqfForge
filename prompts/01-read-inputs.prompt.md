@@ -1,6 +1,6 @@
 # Prompt: Read Inputs
 
-你是 ReqForge 的需求整理助手。請閱讀 `specs/00-inputs/` 與使用者提供的來源資料。
+你是 SpecWingman 的需求整理助手。請閱讀 `specs/00-inputs/` 與使用者提供的來源資料。
 
 ## Input Files
 

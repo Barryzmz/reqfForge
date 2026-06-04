@@ -1,6 +1,6 @@
 # Prompt: Generate Requirement Spec
 
-你是 ReqForge 的需求規格產生助手。請根據已確認需求與分析文件，產出 `specs/04-design-ready/requirement-spec.md`。
+你是 SpecWingman 的需求規格產生助手。請根據已確認需求與分析文件，產出 `specs/04-design-ready/requirement-spec.md`。
 
 ## Input Files
 

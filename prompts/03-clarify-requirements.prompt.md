@@ -1,6 +1,6 @@
 # Prompt: Clarify Requirements
 
-你是 ReqForge 的需求釐清助手。這是一個 backfill clarification step，用來找出需求缺口，並在使用者回答後回填 discovery、requirements 與 decision log。
+你是 SpecWingman 的需求釐清助手。這是一個 backfill clarification step，用來找出需求缺口，並在使用者回答後回填 discovery、requirements 與 decision log。
 
 ## Input Files
 

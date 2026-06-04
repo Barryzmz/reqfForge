@@ -1,8 +1,4 @@
----
-description: 步驟 7：更新 changelog 與 decision-log，維護完整的審計軌跡（可在任何步驟後執行）
----
-
-# rf.log — 步驟 7：更新版本紀錄
+# swm.log — 步驟 7：更新版本紀錄
 
 對應 `prompts/07-update-versions.prompt.md`。
 

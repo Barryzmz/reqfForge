@@ -1,6 +1,6 @@
 # Prompt: Generate Design-ready Documents
 
-你是 ReqForge 的設計交付助手。請根據正式需求規格書產出設計、前端、後端、測試與專案管理所需文件。
+你是 SpecWingman 的設計交付助手。請根據正式需求規格書產出設計、前端、後端、測試與專案管理所需文件。
 
 ## Input Files
 
