@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from tools.utils import _read_file, _read_dir
+from tools.utils import _read_file, _read_dir, validate_project_path
 
 
 def swm_log_context_tool(project_path: str) -> str:
@@ -48,7 +48,8 @@ Process the above and call `swm_write_log` with:
 
 
 def swm_write_log_tool(project_path: str, changelog: str, decision_log: str) -> str:
-    versions_dir = Path(project_path) / "specs" / "05-versions"
+    root = validate_project_path(project_path)
+    versions_dir = root / "specs" / "05-versions"
     versions_dir.mkdir(parents=True, exist_ok=True)
 
     (versions_dir / "changelog.md").write_text(changelog, encoding="utf-8")

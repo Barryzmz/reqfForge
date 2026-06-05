@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from tools.utils import _read_file, _read_dir
+from tools.utils import _read_file, _read_dir, validate_project_path
 
 
 def swm_spec_context_tool(project_path: str) -> str:
@@ -39,7 +39,8 @@ Process the above and call `swm_write_spec` with:
 
 
 def swm_write_spec_tool(project_path: str, requirement_spec: str) -> str:
-    output_dir = Path(project_path) / "specs" / "04-design-ready"
+    root = validate_project_path(project_path)
+    output_dir = root / "specs" / "04-design-ready"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     (output_dir / "requirement-spec.md").write_text(requirement_spec, encoding="utf-8")

@@ -1,6 +1,15 @@
 from pathlib import Path
 
 
+def validate_project_path(project_path: str) -> Path:
+    root = Path(project_path)
+    if not root.exists():
+        raise ValueError(f"Invalid project path: {project_path} (directory does not exist)")
+    if not (root / "CONSTITUTION.md").exists():
+        raise ValueError(f"Invalid project path: {project_path} (CONSTITUTION.md not found)")
+    return root
+
+
 def _read_file(path: Path) -> str:
     return path.read_text(encoding="utf-8") if path.exists() else ""
 

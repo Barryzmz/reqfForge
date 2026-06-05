@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from tools.utils import _read_file, _read_dir
+from tools.utils import _read_file, _read_dir, validate_project_path
 
 
 def swm_analyze_context_tool(project_path: str) -> str:
@@ -44,7 +44,8 @@ def swm_write_analyze_tool(
     state_transitions: str,
     edge_cases: str,
 ) -> str:
-    output_dir = Path(project_path) / "specs" / "03-analysis"
+    root = validate_project_path(project_path)
+    output_dir = root / "specs" / "03-analysis"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     files = {

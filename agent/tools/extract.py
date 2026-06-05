@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from tools.utils import _read_file, _read_dir
+from tools.utils import _read_file, _read_dir, validate_project_path
 
 
 def swm_extract_context_tool(project_path: str) -> str:
@@ -48,7 +48,8 @@ def swm_write_extract_tool(
     non_functional_requirements: str,
     user_roles: str,
 ) -> str:
-    output_dir = Path(project_path) / "specs" / "02-requirements"
+    root = validate_project_path(project_path)
+    output_dir = root / "specs" / "02-requirements"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     files = {

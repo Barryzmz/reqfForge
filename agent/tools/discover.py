@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from tools.utils import _read_file, _read_dir
+from tools.utils import _read_file, _read_dir, validate_project_path
 
 
 def swm_discover_context_tool(project_path: str) -> str:
@@ -38,7 +38,8 @@ def swm_write_discovery_tool(
     assumptions: str,
     glossary: str,
 ) -> str:
-    output_dir = Path(project_path) / "specs" / "01-discovery"
+    root = validate_project_path(project_path)
+    output_dir = root / "specs" / "01-discovery"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     files = {

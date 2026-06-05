@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Optional
 
-from tools.utils import _read_file, _read_dir
+from tools.utils import _read_file, _read_dir, validate_project_path
 
 
 def swm_clarify_context_tool(project_path: str) -> str:
@@ -67,7 +67,7 @@ def swm_write_clarify_tool(
     assumptions: Optional[str] = None,
     decision_log: Optional[str] = None,
 ) -> str:
-    root = Path(project_path)
+    root = validate_project_path(project_path)
     discovery_dir = root / "specs" / "01-discovery"
     discovery_dir.mkdir(parents=True, exist_ok=True)
 

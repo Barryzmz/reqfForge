@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from tools.utils import _read_file
+from tools.utils import _read_file, validate_project_path
 
 
 def swm_design_context_tool(project_path: str) -> str:
@@ -56,7 +56,8 @@ def swm_write_design_tool(
     test_cases: str,
     development_tasks: str,
 ) -> str:
-    output_dir = Path(project_path) / "specs" / "04-design-ready"
+    root = validate_project_path(project_path)
+    output_dir = root / "specs" / "04-design-ready"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     files = {
