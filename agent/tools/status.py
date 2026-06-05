@@ -80,7 +80,9 @@ def _has_substantive_content(filepath: Path) -> bool:
 
         # Non-table line
         past_separator = False
-        content = stripped.lstrip(">-* ").strip()
+        if stripped.startswith(">"):
+            continue
+        content = stripped.lstrip("-* ").strip()
         if (content
                 and content not in _BOILERPLATE
                 and content.lower() != "tbd"
