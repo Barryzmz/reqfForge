@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Local planning docs
+AGENT-ROADMAP.md
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
