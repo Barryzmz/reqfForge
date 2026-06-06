@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/specs-traceable-6f42c1?style=flat-square" alt="traceable specs" />
   <img src="https://img.shields.io/badge/MCP-supported-2ea44f?style=flat-square" alt="MCP supported" />
   <img src="https://img.shields.io/badge/no-guesswork-f97316?style=flat-square" alt="no guesswork" />
+  <img src="https://img.shields.io/badge/license-MIT-008fd3?style=flat-square" alt="MIT license" />
 </p>
 
 # SpecWingman
