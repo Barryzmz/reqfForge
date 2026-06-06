@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.0-008fd3?style=flat-square" alt="version 0.1.0" />
+  <img src="https://img.shields.io/badge/version-3.0.0-008fd3?style=flat-square" alt="version 3.0.0" />
   <img src="https://img.shields.io/badge/specs-traceable-6f42c1?style=flat-square" alt="traceable specs" />
   <img src="https://img.shields.io/badge/MCP-supported-2ea44f?style=flat-square" alt="MCP supported" />
   <img src="https://img.shields.io/badge/no-guesswork-f97316?style=flat-square" alt="no guesswork" />
